@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0;
+}
+
+#app {
+  height: 100vh;
+  background-color: burlywood;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.menu, .trigger {
+  border: 1px solid #333333;
+  border-radius: 3px;
+}
+
+.trigger {
+  width: 20px;
+  padding: 8px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  display: none;
+  width: 200px;
+  opacity: 0;
+  text-align: center;
+}
